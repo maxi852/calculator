@@ -1,0 +1,19 @@
+body {
+  margin: 10% 25% 0 25%;
+  border: 1px solid red;
+}
+
+.visual {
+  margin-top: 5%;
+  padding: 5% 0;
+  border: 1px solid green;
+}
+
+.save {
+  padding: 2% 0;
+  border: 1px solid blue;
+}
+
+.number-ops {
+  padding: 35% 0;
+}
