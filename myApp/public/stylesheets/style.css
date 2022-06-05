@@ -1,19 +1,45 @@
-body {
-  margin: 10% 25% 0 25%;
-  border: 1px solid red;
+
+
+.calculator-shape {
+  margin: 10% 30% 20% 30%;
+  border: 2px solid black;
+  border-radius: 2px;
+  background-color: rgb(214, 207, 207);
 }
 
 .visual {
-  margin-top: 5%;
+  background-color: white;
+  margin: 5% 3% 0 3%;
   padding: 5% 0;
-  border: 1px solid green;
+  border: 1px solid grey;
+  border-radius: 3px;
+  text-align: right;
+  font-size: 30px;  
 }
 
 .save {
   padding: 2% 0;
-  border: 1px solid blue;
 }
 
 .number-ops {
-  padding: 35% 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-left: 3%;
+}
+
+div {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 19%;
+  height: 70px;
+}
+
+div:hover {
+  background-color: gainsboro;
 }
